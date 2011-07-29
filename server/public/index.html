@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>PhoneGap ScreenStream</title>
+    <link rel=StyleSheet href="main.css" type="text/css">
     <script src="http://localhost:8080/socket.io/socket.io.js"></script>
      <!--  <script src="http://24.82.144.128:8080/socket.io/socket.io.js"></script> -->
      <script src="jquery-1.6.2.js"></script>
@@ -9,14 +10,18 @@
   </head>
   <body>
     <h1>Welcome to ScreenStream</h1>
-    <div id="viewwrapper">
+ 
+   <div id="commformwrap">
+    <form id="commform" action="">
+        <input id="keystrokeinput" type="text" value="Enter Text" />
+        <input type="button" value ="Submit" id="commformsub" onClick="subform()"/>
+    <form>
+   </div> 
+   <div id="viewwrapper">
       <canvas id="mainviewer" width="358" height="710"></canvas>
     </div>
-    <div id="datainput">
-      <form>
-        <input id="textinput" type="text" value="Enter Text" />
-      </form>
-    </div>
+
+
       <script>
         var socket = io.connect('http://localhost:8080');
         //var socket = io.connect('http://24.82.144.128:8080');
@@ -39,6 +44,11 @@
          socket.emit('mouseup', { xpos:x,ypos:y });
        });
        
+       var subform = function(event) {
+           console.log(  $("#keystrokeinput").val() , 'wut?');
+           socket.emit('keystroke', { data: $("#keystrokeinput").val() });
+           return false;
+       }
 
      </script>
 

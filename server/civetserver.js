@@ -9,11 +9,6 @@ var io   = require('socket.io');
 // setup the server, point socket.io listener to the server, and configure static file 
 //
 //==================================================================================================
-//wipe previous session data
-exec("rm public/session/*.*", function(err, stdout, stderror) {
-   // console.log(err, stdout, stderror);
-});
-//==================================================================================================
 var eventsimulate = function(x,y) {
     exec( "./click -x "+x+" -y "+y, function(err,stdout,stderror) {
         //console.log(err,stdout,stderror);
@@ -21,8 +16,9 @@ var eventsimulate = function(x,y) {
 }
 //==================================================================================================
 var keystrokesimulate = function(data) {
-    exec( "osascript ", function( error, stdout, stderr) { 
-        
+    console.log("osascript keystrokesimulate.scpt "+data.data);
+    exec( "osascript keystrokesimulate.scpt "+data.data, function( error, stdout, stderr) { 
+        console.log(error,stdout,stderr);  
     });   
 }
 //==================================================================================================
@@ -31,9 +27,10 @@ var server = http.createServer(
   function (request,response){
       //parse url
       var filepath = request.url;
-      if ( filepath == '/' ) {
+      if ( filepath == '/' || filepath == '/?') {
           filepath = './public/index.html';
       }
+      console.log( request.url );
       //parse file extension to properly supply contenttype
       var ext = path.extname(filepath);
       var contenttype;
@@ -82,6 +79,10 @@ var socket = io.listen(server);
 //set up socket message handlers
 var child;
 socket.sockets.on('connection', function (socket) {
+//wipe previous session data
+exec("rm public/session/*.*", function(err, stdout, stderror) {
+   // console.log(err, stdout, stderror);
+});
     //==============================================================================================
     socket.emit('news', {hello: 'world' });
     //==============================================================================================
