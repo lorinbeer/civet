@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>PhoneGap ScreenStream</title>
+    <script src="http://localhost:8080/socket.io/socket.io.js"></script>
+     <!--  <script src="http://24.82.144.128:8080/socket.io/socket.io.js"></script> -->
+     <script src="jquery-1.6.2.js"></script>
+ <!--    <script src="main.js"></script>  -->
+  </head>
+  <body>
+    <h1>Welcome to ScreenStream</h1>
+    <div id="viewwrapper">
+      <canvas id="mainviewer" width="358" height="710"></canvas>
+    </div>
+      <script>
+        var socket = io.connect('http://localhost:8080');
+        //var socket = io.connect('http://24.82.144.128:8080');
+        socket.on('news', function(data) {
+          var img = new Image();
+          src = data.data;//'localhost:8080/'+data.data;
+          img.src = src; //data.data;
+          img.onload = function() {
+            var context = $("#mainviewer")[0].getContext('2d');
+            context.drawImage( img, 0, 0 );
+          }
+        });
+
+
+       $("#mainviewer").mouseup( function(event) {
+         var pos =  $("#mainviewer").position();
+         var x = event.clientX - pos.left;
+         var y = event.clientY - pos.top;
+         console.log( event, x, y );
+         socket.emit('mouseup', { xpos:x,ypos:y });
+       });
+       
+
+     </script>
+
+  </body>
+</html>

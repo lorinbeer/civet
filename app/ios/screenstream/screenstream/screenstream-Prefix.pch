@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'screenstream' target in the 'screenstream' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif

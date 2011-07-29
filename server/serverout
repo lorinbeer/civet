@@ -1,0 +1,321 @@
+   [36minfo  -[39m socket.io started
+   [90mdebug -[39m served static /socket.io.js
+   [90mdebug -[39m client authorized
+   [36minfo  -[39m handshake authorized 1251159484570884042
+   [90mdebug -[39m setting request GET /socket.io/1/websocket/1251159484570884042
+   [90mdebug -[39m set heartbeat interval for client 1251159484570884042
+   [90mdebug -[39m client authorized for 
+   [90mdebug -[39m websocket writing 1::
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"hello":"world"}]}
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/0.bmp"}]}
+/public/session/0.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  0
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/1.bmp"}]}
+/public/session/1.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  1
+   [90mdebug -[39m client authorized
+   [36minfo  -[39m handshake authorized 65563444381845150
+   [90mdebug -[39m setting request GET /socket.io/1/websocket/65563444381845150
+   [90mdebug -[39m set heartbeat interval for client 65563444381845150
+   [90mdebug -[39m client authorized for 
+   [90mdebug -[39m websocket writing 1::
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"hello":"world"}]}
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/0.bmp"}]}
+/public/session/0.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  0
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/2.bmp"}]}
+/public/session/2.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  2
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/1.bmp"}]}
+/public/session/1.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  1
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/3.bmp"}]}
+/public/session/3.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  3
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/2.bmp"}]}
+/public/session/2.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  2
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/4.bmp"}]}
+/public/session/4.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  4
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/3.bmp"}]}
+/public/session/3.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  3
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/5.bmp"}]}
+/public/session/5.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  5
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/4.bmp"}]}
+/public/session/4.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  4
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/6.bmp"}]}
+/public/session/6.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  6
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/5.bmp"}]}
+/public/session/5.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  5
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/7.bmp"}]}
+/public/session/7.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  7
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/6.bmp"}]}
+/public/session/6.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  6
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/8.bmp"}]}
+/public/session/8.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  8
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/7.bmp"}]}
+/public/session/7.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  7
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/9.bmp"}]}
+/public/session/9.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  9
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/8.bmp"}]}
+/public/session/8.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  8
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/10.bmp"}]}
+/public/session/10.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  10
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/9.bmp"}]}
+/public/session/9.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  9
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/11.bmp"}]}
+/public/session/11.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  11
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/10.bmp"}]}
+/public/session/10.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  10
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/12.bmp"}]}
+/public/session/12.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  12
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/11.bmp"}]}
+/public/session/11.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  11
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/13.bmp"}]}
+/public/session/13.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  13
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/12.bmp"}]}
+/public/session/12.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  12
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/14.bmp"}]}
+/public/session/14.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  14
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/13.bmp"}]}
+/public/session/13.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  13
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/15.bmp"}]}
+/public/session/15.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  15
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/14.bmp"}]}
+/public/session/14.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  14
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/16.bmp"}]}
+/public/session/16.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  16
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/15.bmp"}]}
+/public/session/15.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  15
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/17.bmp"}]}
+/public/session/17.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  17
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/16.bmp"}]}
+/public/session/16.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  16
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/18.bmp"}]}
+/public/session/18.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  18
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/17.bmp"}]}
+/public/session/17.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  17
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/19.bmp"}]}
+/public/session/19.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  19
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/18.bmp"}]}
+/public/session/18.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  18
+   [90mdebug -[39m emitting heartbeat for client 1251159484570884042
+   [90mdebug -[39m websocket writing 2::
+   [90mdebug -[39m set heartbeat timeout for client 1251159484570884042
+   [90mdebug -[39m websocket received data packet 2::
+   [90mdebug -[39m got heartbeat packet
+   [90mdebug -[39m cleared heartbeat timeout for client 1251159484570884042
+   [90mdebug -[39m set heartbeat interval for client 1251159484570884042
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/20.bmp"}]}
+/public/session/20.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  20
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/19.bmp"}]}
+/public/session/19.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  19
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/21.bmp"}]}
+/public/session/21.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  21
+   [90mdebug -[39m emitting heartbeat for client 65563444381845150
+   [90mdebug -[39m websocket writing 2::
+   [90mdebug -[39m set heartbeat timeout for client 65563444381845150
+   [90mdebug -[39m websocket received data packet 2::
+   [90mdebug -[39m got heartbeat packet
+   [90mdebug -[39m cleared heartbeat timeout for client 65563444381845150
+   [90mdebug -[39m set heartbeat interval for client 65563444381845150
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/20.bmp"}]}
+/public/session/20.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  20
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/22.bmp"}]}
+/public/session/22.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  22
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/21.bmp"}]}
+/public/session/21.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  21
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/23.bmp"}]}
+/public/session/23.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  23
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/22.bmp"}]}
+/public/session/22.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  22
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/24.bmp"}]}
+/public/session/24.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  24
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/23.bmp"}]}
+/public/session/23.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  23
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/25.bmp"}]}
+/public/session/25.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  25
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/24.bmp"}]}
+/public/session/24.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  24
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/26.bmp"}]}
+/public/session/26.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  26
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/25.bmp"}]}
+/public/session/25.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  25
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/27.bmp"}]}
+/public/session/27.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  27
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/26.bmp"}]}
+/public/session/26.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  26
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/28.bmp"}]}
+/public/session/28.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  28
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/27.bmp"}]}
+/public/session/27.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  27
+streaming a steaming screen
+   [90mdebug -[39m websocket writing 5:::{"name":"news","args":[{"data":"public/session/29.bmp"}]}
+/public/session/29.bmp
+apple script simulator to pasteboard
+cocoa program pasteboard to file, frame:  29
+streaming a steaming screen

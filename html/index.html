@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>PhoneGap ScreenStream</title>
+
+       <script src="http://24.82.144.128:8080/socket.io/socket.io.js"></script>
+       <script src="jquery-1.6.2.js"></script>
+
+  </head>
+  <body>
+    <h1>Welcome to ScreenStream</h1>
+
+    <canvas id="mainviewer" width="400" height="400"></canvas>
+       <script>
+           //var socket = io.connect('http://localhost:8080');
+           var socket = io.connect('http://24.82.144.128:8080');
+
+           socket.emit("downstreammsg");
+
+           socket.on("downstreamscreen", function(data) {
+             console.log("processing downstreamscreen event");
+             var imgpath = "../app/ios/test/www/"+data.data;
+             console.log("data: ",imgpath);
+             var img = new Image();
+             img.src = imgpath;
+             img.onload = function() {
+               console.log( "drawing to mainview");
+               var context = $("#mainviewer")[0].getContext('2d');
+               context.drawImage( img, 0, 0 );
+              }
+           });
+           
+
+       </script>
+  </body>
+</html>

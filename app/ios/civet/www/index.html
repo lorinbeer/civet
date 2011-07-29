@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <script type="text/javascript" charset="utf-8" src="phonegap.0.9.6.js"></script>
+    <script type="text/javascript" src="jquery-1.6.2.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+        
+    <script src="http://localhost:8080/socket.io/socket.io.js"></script>
+    
+    <script type="text/javascript" charset="utf-8">
+
+	
+	function onBodyLoad()
+	{
+        console.log("HSNOTHUSNTH");
+        alert("stnhsnthsnht");
+		document.addEventListener("deviceready",onDeviceReady,false);
+	}
+	
+	/* When this function is called, PhoneGap has been initialized and is ready to roll */
+	/* If you are supporting your own protocol, the var invokeString will contain any arguments to the app launch.
+	see http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
+	for more details -jm */
+	function onDeviceReady()
+	{
+     //   initstream(100);
+	}       
+    </script>
+  </head>
+  <body onload="onBodyLoad()">
+  	  <h2>Phonegap Screen Streamer</h2>
+	  <div id='status'>
+        <p id='statustext'> </p>
+      </div>
+      <canvas id="mainviewer" width"=400" height="400"></canvas>
+  </body>
+</html>
